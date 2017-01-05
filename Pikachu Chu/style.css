@@ -1,0 +1,89 @@
+@font-face{
+    font-family : "maFonte";
+    src : url("font.ttf");
+}
+
+html {
+  margin:0;
+  padding:0;
+  background: url("https://images3.alphacoders.com/273/thumb-1920-273289.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body
+{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+
+
+}
+
+.outer-div
+{
+  padding: 30px;
+  height: 880px;
+
+
+}
+.inner-div
+{
+
+  margin: 0 auto;
+  width: 900px;
+  background-color: transparent;
+  position: relative
+}
+
+.center-div {
+  margin: 0 225px;
+
+}
+
+.symbol{
+  color: purple;
+
+}
+
+h1 {
+  color: #EFDC05;
+  text-shadow: 1px 1px black;
+  font-family : "maFonte";
+
+
+}
+
+h3 {
+  color: #534847;
+  font-family : "maFonte", Helvetica, Arial, sans-serif;
+
+}
+
+h4 {
+  text-shadow: 0.5px 0.5px white;
+}
+
+img {
+  left: 600px;
+  top: 70px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 50px 5px #888;
+
+}
+.img2{
+  width: 25%;
+  position: absolute;
+  top: 700px;
+  left: -200px;
+}
+
+h3:nth-child(-4) {
+  text-align: right;
+}
+ul{
+  text-align;
+}
